@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C71C260520204924000C93F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C260420204924000C93F8 /* main.m */; };
+		C71C260820204924000C93F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C260720204924000C93F8 /* AppDelegate.m */; };
+		C71C260B20204924000C93F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C260A20204924000C93F8 /* ViewController.m */; };
+		C71C260E20204924000C93F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71C260C20204924000C93F8 /* Main.storyboard */; };
+		C71C261020204924000C93F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71C260F20204924000C93F8 /* Assets.xcassets */; };
+		C71C261320204924000C93F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71C261120204924000C93F8 /* LaunchScreen.storyboard */; };
+		C71C261E20204924000C93F8 /* TranscribeVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C261D20204924000C93F8 /* TranscribeVideoTests.m */; };
+		C71C262920204924000C93F8 /* TranscribeVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C262820204924000C93F8 /* TranscribeVideoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C71C261A20204924000C93F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C71C25F820204924000C93F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71C25FF20204924000C93F8;
+			remoteInfo = TranscribeVideo;
+		};
+		C71C262520204924000C93F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C71C25F820204924000C93F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71C25FF20204924000C93F8;
+			remoteInfo = TranscribeVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C71C260020204924000C93F8 /* TranscribeVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranscribeVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71C260420204924000C93F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C71C260620204924000C93F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C71C260720204924000C93F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C71C260920204924000C93F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C71C260A20204924000C93F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C71C260D20204924000C93F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C71C260F20204924000C93F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C71C261220204924000C93F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C71C261420204924000C93F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71C261920204924000C93F8 /* TranscribeVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranscribeVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71C261D20204924000C93F8 /* TranscribeVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranscribeVideoTests.m; sourceTree = "<group>"; };
+		C71C261F20204924000C93F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71C262420204924000C93F8 /* TranscribeVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranscribeVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71C262820204924000C93F8 /* TranscribeVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranscribeVideoUITests.m; sourceTree = "<group>"; };
+		C71C262A20204924000C93F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C71C25FD20204924000C93F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C261620204924000C93F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C262120204924000C93F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C71C25F720204924000C93F8 = {
+			isa = PBXGroup;
+			children = (
+				C71C260220204924000C93F8 /* TranscribeVideo */,
+				C71C261C20204924000C93F8 /* TranscribeVideoTests */,
+				C71C262720204924000C93F8 /* TranscribeVideoUITests */,
+				C71C260120204924000C93F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C71C260120204924000C93F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C71C260020204924000C93F8 /* TranscribeVideo.app */,
+				C71C261920204924000C93F8 /* TranscribeVideoTests.xctest */,
+				C71C262420204924000C93F8 /* TranscribeVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C71C260220204924000C93F8 /* TranscribeVideo */ = {
+			isa = PBXGroup;
+			children = (
+				C71C260620204924000C93F8 /* AppDelegate.h */,
+				C71C260720204924000C93F8 /* AppDelegate.m */,
+				C71C260920204924000C93F8 /* ViewController.h */,
+				C71C260A20204924000C93F8 /* ViewController.m */,
+				C71C260C20204924000C93F8 /* Main.storyboard */,
+				C71C260F20204924000C93F8 /* Assets.xcassets */,
+				C71C261120204924000C93F8 /* LaunchScreen.storyboard */,
+				C71C261420204924000C93F8 /* Info.plist */,
+				C71C260320204924000C93F8 /* Supporting Files */,
+			);
+			path = TranscribeVideo;
+			sourceTree = "<group>";
+		};
+		C71C260320204924000C93F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71C260420204924000C93F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C71C261C20204924000C93F8 /* TranscribeVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C71C261D20204924000C93F8 /* TranscribeVideoTests.m */,
+				C71C261F20204924000C93F8 /* Info.plist */,
+			);
+			path = TranscribeVideoTests;
+			sourceTree = "<group>";
+		};
+		C71C262720204924000C93F8 /* TranscribeVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C71C262820204924000C93F8 /* TranscribeVideoUITests.m */,
+				C71C262A20204924000C93F8 /* Info.plist */,
+			);
+			path = TranscribeVideoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C71C25FF20204924000C93F8 /* TranscribeVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71C262D20204924000C93F8 /* Build configuration list for PBXNativeTarget "TranscribeVideo" */;
+			buildPhases = (
+				C71C25FC20204924000C93F8 /* Sources */,
+				C71C25FD20204924000C93F8 /* Frameworks */,
+				C71C25FE20204924000C93F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TranscribeVideo;
+			productName = TranscribeVideo;
+			productReference = C71C260020204924000C93F8 /* TranscribeVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C71C261820204924000C93F8 /* TranscribeVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71C263020204924000C93F8 /* Build configuration list for PBXNativeTarget "TranscribeVideoTests" */;
+			buildPhases = (
+				C71C261520204924000C93F8 /* Sources */,
+				C71C261620204924000C93F8 /* Frameworks */,
+				C71C261720204924000C93F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71C261B20204924000C93F8 /* PBXTargetDependency */,
+			);
+			name = TranscribeVideoTests;
+			productName = TranscribeVideoTests;
+			productReference = C71C261920204924000C93F8 /* TranscribeVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C71C262320204924000C93F8 /* TranscribeVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71C263320204924000C93F8 /* Build configuration list for PBXNativeTarget "TranscribeVideoUITests" */;
+			buildPhases = (
+				C71C262020204924000C93F8 /* Sources */,
+				C71C262120204924000C93F8 /* Frameworks */,
+				C71C262220204924000C93F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71C262620204924000C93F8 /* PBXTargetDependency */,
+			);
+			name = TranscribeVideoUITests;
+			productName = TranscribeVideoUITests;
+			productReference = C71C262420204924000C93F8 /* TranscribeVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C71C25F820204924000C93F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "中商国际";
+				TargetAttributes = {
+					C71C25FF20204924000C93F8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y767TWF284;
+						ProvisioningStyle = Automatic;
+					};
+					C71C261820204924000C93F8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y767TWF284;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C71C25FF20204924000C93F8;
+					};
+					C71C262320204924000C93F8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Y767TWF284;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C71C25FF20204924000C93F8;
+					};
+				};
+			};
+			buildConfigurationList = C71C25FB20204924000C93F8 /* Build configuration list for PBXProject "TranscribeVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C71C25F720204924000C93F8;
+			productRefGroup = C71C260120204924000C93F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C71C25FF20204924000C93F8 /* TranscribeVideo */,
+				C71C261820204924000C93F8 /* TranscribeVideoTests */,
+				C71C262320204924000C93F8 /* TranscribeVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C71C25FE20204924000C93F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C261320204924000C93F8 /* LaunchScreen.storyboard in Resources */,
+				C71C261020204924000C93F8 /* Assets.xcassets in Resources */,
+				C71C260E20204924000C93F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C261720204924000C93F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C262220204924000C93F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C71C25FC20204924000C93F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C260B20204924000C93F8 /* ViewController.m in Sources */,
+				C71C260820204924000C93F8 /* AppDelegate.m in Sources */,
+				C71C260520204924000C93F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C261520204924000C93F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C261E20204924000C93F8 /* TranscribeVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C262020204924000C93F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C262920204924000C93F8 /* TranscribeVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C71C261B20204924000C93F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71C25FF20204924000C93F8 /* TranscribeVideo */;
+			targetProxy = C71C261A20204924000C93F8 /* PBXContainerItemProxy */;
+		};
+		C71C262620204924000C93F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71C25FF20204924000C93F8 /* TranscribeVideo */;
+			targetProxy = C71C262520204924000C93F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C71C260C20204924000C93F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71C260D20204924000C93F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C71C261120204924000C93F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71C261220204924000C93F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C71C262B20204924000C93F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C71C262C20204924000C93F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C71C262E20204924000C93F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y767TWF284;
+				INFOPLIST_FILE = TranscribeVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.bjzsgj.TranscribeVideo.TranscribeVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C71C262F20204924000C93F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y767TWF284;
+				INFOPLIST_FILE = TranscribeVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.bjzsgj.TranscribeVideo.TranscribeVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C71C263120204924000C93F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y767TWF284;
+				INFOPLIST_FILE = TranscribeVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.bjzsgj.TranscribeVideo.TranscribeVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranscribeVideo.app/TranscribeVideo";
+			};
+			name = Debug;
+		};
+		C71C263220204924000C93F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y767TWF284;
+				INFOPLIST_FILE = TranscribeVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.bjzsgj.TranscribeVideo.TranscribeVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TranscribeVideo.app/TranscribeVideo";
+			};
+			name = Release;
+		};
+		C71C263420204924000C93F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y767TWF284;
+				INFOPLIST_FILE = TranscribeVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.bjzsgj.TranscribeVideo.TranscribeVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TranscribeVideo;
+			};
+			name = Debug;
+		};
+		C71C263520204924000C93F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y767TWF284;
+				INFOPLIST_FILE = TranscribeVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.bjzsgj.TranscribeVideo.TranscribeVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TranscribeVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C71C25FB20204924000C93F8 /* Build configuration list for PBXProject "TranscribeVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71C262B20204924000C93F8 /* Debug */,
+				C71C262C20204924000C93F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71C262D20204924000C93F8 /* Build configuration list for PBXNativeTarget "TranscribeVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71C262E20204924000C93F8 /* Debug */,
+				C71C262F20204924000C93F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C71C263020204924000C93F8 /* Build configuration list for PBXNativeTarget "TranscribeVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71C263120204924000C93F8 /* Debug */,
+				C71C263220204924000C93F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C71C263320204924000C93F8 /* Build configuration list for PBXNativeTarget "TranscribeVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71C263420204924000C93F8 /* Debug */,
+				C71C263520204924000C93F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C71C25F820204924000C93F8 /* Project object */;
+}
