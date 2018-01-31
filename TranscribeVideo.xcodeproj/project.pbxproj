@@ -15,6 +15,11 @@
 		C71C261320204924000C93F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71C261120204924000C93F8 /* LaunchScreen.storyboard */; };
 		C71C261E20204924000C93F8 /* TranscribeVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C261D20204924000C93F8 /* TranscribeVideoTests.m */; };
 		C71C262920204924000C93F8 /* TranscribeVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C262820204924000C93F8 /* TranscribeVideoUITests.m */; };
+		C71C263820205EF3000C93F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71C263720205EF3000C93F8 /* AVFoundation.framework */; };
+		C71C263A202063A1000C93F8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71C2639202063A1000C93F8 /* MediaPlayer.framework */; };
+		C71C263C20206948000C93F8 /* play_small.png in Resources */ = {isa = PBXBuildFile; fileRef = C71C263B20206948000C93F8 /* play_small.png */; };
+		C71C26412020729A000C93F8 /* CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C71C26402020729A000C93F8 /* CommonMethod.m */; };
+		C76AD53E2021541400BE1A72 /* AVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C76AD53D2021541400BE1A72 /* AVPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		C71C262420204924000C93F8 /* TranscribeVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranscribeVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71C262820204924000C93F8 /* TranscribeVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranscribeVideoUITests.m; sourceTree = "<group>"; };
 		C71C262A20204924000C93F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71C263720205EF3000C93F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C71C2639202063A1000C93F8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C71C263B20206948000C93F8 /* play_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_small.png; sourceTree = "<group>"; };
+		C71C263D20206E39000C93F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		C71C263E20206E39000C93F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		C71C263F2020729A000C93F8 /* CommonMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethod.h; sourceTree = "<group>"; };
+		C71C26402020729A000C93F8 /* CommonMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethod.m; sourceTree = "<group>"; };
+		C76AD53C2021541400BE1A72 /* AVPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerView.h; sourceTree = "<group>"; };
+		C76AD53D2021541400BE1A72 /* AVPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71C263A202063A1000C93F8 /* MediaPlayer.framework in Frameworks */,
+				C71C263820205EF3000C93F8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +101,7 @@
 				C71C261C20204924000C93F8 /* TranscribeVideoTests */,
 				C71C262720204924000C93F8 /* TranscribeVideoUITests */,
 				C71C260120204924000C93F8 /* Products */,
+				C71C263620205EF3000C93F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +118,15 @@
 		C71C260220204924000C93F8 /* TranscribeVideo */ = {
 			isa = PBXGroup;
 			children = (
+				C71C263F2020729A000C93F8 /* CommonMethod.h */,
+				C71C26402020729A000C93F8 /* CommonMethod.m */,
+				C71C263B20206948000C93F8 /* play_small.png */,
 				C71C260620204924000C93F8 /* AppDelegate.h */,
 				C71C260720204924000C93F8 /* AppDelegate.m */,
 				C71C260920204924000C93F8 /* ViewController.h */,
 				C71C260A20204924000C93F8 /* ViewController.m */,
+				C76AD53C2021541400BE1A72 /* AVPlayerView.h */,
+				C76AD53D2021541400BE1A72 /* AVPlayerView.m */,
 				C71C260C20204924000C93F8 /* Main.storyboard */,
 				C71C260F20204924000C93F8 /* Assets.xcassets */,
 				C71C261120204924000C93F8 /* LaunchScreen.storyboard */,
@@ -138,6 +160,15 @@
 				C71C262A20204924000C93F8 /* Info.plist */,
 			);
 			path = TranscribeVideoUITests;
+			sourceTree = "<group>";
+		};
+		C71C263620205EF3000C93F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C71C2639202063A1000C93F8 /* MediaPlayer.framework */,
+				C71C263720205EF3000C93F8 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +260,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = C71C25F720204924000C93F8;
@@ -252,6 +282,7 @@
 				C71C261320204924000C93F8 /* LaunchScreen.storyboard in Resources */,
 				C71C261020204924000C93F8 /* Assets.xcassets in Resources */,
 				C71C260E20204924000C93F8 /* Main.storyboard in Resources */,
+				C71C263C20206948000C93F8 /* play_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +310,8 @@
 				C71C260B20204924000C93F8 /* ViewController.m in Sources */,
 				C71C260820204924000C93F8 /* AppDelegate.m in Sources */,
 				C71C260520204924000C93F8 /* main.m in Sources */,
+				C71C26412020729A000C93F8 /* CommonMethod.m in Sources */,
+				C76AD53E2021541400BE1A72 /* AVPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +351,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C71C260D20204924000C93F8 /* Base */,
+				C71C263D20206E39000C93F8 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -326,6 +360,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C71C261220204924000C93F8 /* Base */,
+				C71C263E20206E39000C93F8 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -337,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -386,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -431,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y767TWF284;
 				INFOPLIST_FILE = TranscribeVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.bjzsgj.TranscribeVideo.TranscribeVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y767TWF284;
 				INFOPLIST_FILE = TranscribeVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.bjzsgj.TranscribeVideo.TranscribeVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +557,7 @@
 				C71C262F20204924000C93F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C71C263020204924000C93F8 /* Build configuration list for PBXNativeTarget "TranscribeVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +566,7 @@
 				C71C263220204924000C93F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C71C263320204924000C93F8 /* Build configuration list for PBXNativeTarget "TranscribeVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +575,7 @@
 				C71C263520204924000C93F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
